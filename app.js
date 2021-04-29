@@ -1,5 +1,15 @@
-// $(() => {
+$(() => {
 
-// })
+    for (let i = 1; i <= 9; i++) {
+        const $square = $('<div> ' + i + ' </div>');
+        $($square).appendTo('#field').addClass('square');
+    }
 
-console.log('hello')
+
+
+    const $winningCombinations = [
+        [0, 0, 0],
+        [0, 0, 0]
+    ]
+})
+
